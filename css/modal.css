@@ -1,0 +1,38 @@
+@media screen and (max-width: 1158px) {
+    .lione {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (max-width: 1158px) {
+    .ourteam-ul {
+        width: 736px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lione-div {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .strategy {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    }
+
+    .strategy-p {
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section {
+        background-size: 320px;
+    }
+}
