@@ -81,7 +81,7 @@
     .ulone {
         display: flex;
         flex-direction: column;
-        width: 320px;
+        width: 288px;
     }
 
     .bank {
@@ -167,6 +167,10 @@
     .header-three-lines {
         visibility: visible;
         opacity: 1;
+    }
+
+    .backdrop {
+        width: 320px;
     }
 }
 
