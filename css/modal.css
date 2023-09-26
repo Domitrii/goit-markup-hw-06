@@ -1,14 +1,4 @@
-@media screen and (max-width: 1158px) {
-    .lione {
-        width: calc((100% - 24px) / 2);
-    }
-}
 
-@media screen and (max-width: 1158px) {
-    .ourteam-ul {
-        width: 736px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .lione-div {
@@ -16,31 +6,15 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .strategy {
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    }
-
-    .strategy-p {
-        font-weight: 500;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .section {
-        background-size: 320px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .footer .container {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        align-items: normal;
+    }
+
+    .container {
         width: 100%;
     }
 
@@ -54,6 +28,7 @@
         justify-content: center;
         align-items: center;
         margin: 0 16px 72px;
+        width: 288px;
     }
 
     .foot-cont-two {
@@ -97,5 +72,84 @@
 
     .foot-subs {
         width: 165px;
+    }
+
+    body {
+        width: 320px;
+    } 
+
+    .ulone {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .bank {
+        width: 288px;
+    }
+
+    .mark {
+        width: 264px;
+    }
+
+    .ul-ourteam {
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+    }
+
+    .section-three .container {
+        padding: 0 24px;
+    }
+
+    .section-two, .section-three, .section-four {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .ourteam-ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+    }
+
+    .lione {
+        width: 100%;
+    }
+
+    .strategy {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        justify-content: center;
+        display: flex;    
+    }
+
+    .section {
+        background-size: cover;
+        background-position: center;
+        padding: 72px 0;
+    }
+
+    .sect-hone {
+        margin: 72px 0;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+    }
+
+    .header {
+        width: 320px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .address {
+        display: none;
     }
 }
