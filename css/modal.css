@@ -96,6 +96,8 @@
         display: flex;
         flex-direction: column;
         row-gap: 72px;
+        margin: 0;
+        width: 264px;
     }
 
     .section-three .container {
@@ -151,5 +153,26 @@
 
     .address {
         display: none;
+    }
+
+    .modal-absol {
+        width: 288px;
+        padding: 72px 16px 24px;
+    }
+
+    .label-privacy {
+        display: flex;
+    }
+
+    .header-three-lines {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .header-three-lines {
+        visibility: hidden;
+        opacity: 0;
     }
 }

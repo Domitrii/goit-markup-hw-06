@@ -5,7 +5,7 @@
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    
+
   }
   
   body {
@@ -788,6 +788,7 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
 }
 
 .check-privacy {
@@ -800,6 +801,7 @@
   justify-content: center;
   align-items: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .checkbox:checked + .label-privacy > .check-privacy {
