@@ -1,11 +1,3 @@
-
-
-@media screen and (max-width: 768px) {
-    .lione-div {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .footer .container {
         display: flex;
@@ -72,6 +64,11 @@
 
     .foot-subs {
         width: 165px;
+    }
+
+    .cont-foot {
+        display: flex;
+        flex-direction: column;
     }
 
     body {
@@ -172,11 +169,153 @@
     .backdrop {
         width: 320px;
     }
+
+    .lione-div {
+        display: none;
+    }
 }
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+        body {
+            width: 768px;
+        }
+
+        .header {
+            width: 768px;
+            height: 72px;
+            padding: 16px 0;
+        }
+
+        .lione-div {
+            display: none;
+        }
+
+        .firstdiv-foot {
+            margin-right: 24px;
+        }
+
+        .footer {
+            padding: 96px 0;
+        }
+
+        .cont-foot {
+            display: flex;
+            margin-bottom: 72px;
+        }
+
+        .footer .container {
+            width: 494px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 164px 0 108px;
+        }
+
+        .sub-label {
+            margin-left: 0;
+        }
+
+        .foot-label {
+            margin-left: 0;
+        }
+
+        .bank {
+            width: 356px;
+        }
+
+        .ulone {
+            width: 736px;
+        }
+
+        .section-four {
+            padding: 96px 0;
+        }
+
+        .section-four .container {
+            width: 100%;
+        }
+
+        .section {
+            padding: 112px 0;
+        }
+
+        .section-two, .section-three {
+            padding: 96px 0;
+        }
+
+        .section-three .container {
+            width: 100%;
+            padding: 0 108px;
+        }
+
+        .mark {
+            width: 264px;
+        }
+
+        .section-two .container {
+            width: 100%;
+        }
+
+        .ourteam-ul {
+            width: 736px;
+        }
+
+        .lione {
+            width: 356px;
+        }
+
+        .sect-hone {
+            margin: 0;
+            width: 496px;
+        }
+
+        .button {
+            margin: 36px auto 0;
+        }
+
+        .section .container {
+            width: 100%;
+            padding: 0 136px;
+        }
+
+        .header .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .address-ul {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .address-li {
+            height: 14px;
+        }
+
+        .email {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.16;
+            letter-spacing: 0.48px;
+        }
+
+        .studio {
+            padding: 24px 0 24px;
+            height: 24px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5; /* 150% */
+            letter-spacing: 0.32px; 
+        }
+}
+
+
+
+
 
 @media screen and (min-width: 321px) {
     .header-three-lines {
         visibility: hidden;
         opacity: 0;
-    }
+    }    
 }

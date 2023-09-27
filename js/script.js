@@ -27,3 +27,17 @@ function updateCharCount() {
 }
 
   updateCharCount();
+
+document.addEventListener("DOMContentLoaded", function () {
+    const openMenu = document.getElementById("openMenu");
+    const closeMenu = document.getElementById("closeMenu");
+    const help = document.getElementById("help-lines");
+
+    openMenu.addEventListener("click", function () {
+        help.classList.add("is-open");
+    });
+
+    closeMenu.addEventListener("click", function () {
+        help.classList.remove("is-open")
+    });
+});
