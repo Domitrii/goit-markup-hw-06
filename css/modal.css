@@ -20,6 +20,10 @@
         width: 320px;
     }
 
+    .email-foot {
+        margin-left: 0;
+      }
+
     .firstdiv-foot {
         display: flex;
         flex-direction: column;
@@ -325,4 +329,4 @@
         visibility: hidden;
         opacity: 0;
     }    
-}
+} 
