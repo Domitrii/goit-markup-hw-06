@@ -1,8 +1,9 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     body {
-        width: 320px;
+        width: 100%;
         margin: 0 auto;
+        min-width: 320px;
     }
 
     .footer .container {
@@ -13,11 +14,12 @@
     }
 
     .container {
-        width: 100%;
+        width: 320px;
     }
 
     .footer {
-        width: 320px;
+        width: 100%;
+        min-width: 320px;
     }
 
     .email-foot {
@@ -27,10 +29,8 @@
     .firstdiv-foot {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin: 0 0 72px;
-        width: 288px;
     }
 
     .foot-cont-two {
@@ -81,10 +81,6 @@
         flex-direction: column;
     }
 
-    body {
-        width: 320px;
-    } 
-
     .ulone {
         display: flex;
         flex-direction: column;
@@ -114,6 +110,7 @@
     .section-two, .section-three, .section-four {
         padding-top: 96px;
         padding-bottom: 96px;
+        width: 100%;
     }
 
     .ourteam-ul {
@@ -148,10 +145,7 @@
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.72px;
-    }
-
-    .header {
-        width: 320px;
+        width: 288px;
     }
 
     .nav-menu {
@@ -180,6 +174,10 @@
         width: 100%;
     }
 
+    .lione {
+        width: 288px;
+    }
+
     .lione-div {
         display: none;
     }
@@ -188,18 +186,18 @@
         height: 56px;
         display: flex;
         align-items: center;
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
         body {
-            width: 769px;
+            width: 100%;
             margin: 0 auto;
         }
 
         .header {
-            width: 769px;
-            height: 72px;
+            width: 100%;
         }
 
         .lione-div {
@@ -223,7 +221,6 @@
             width: 494px;
             display: flex;
             flex-wrap: wrap;
-            margin: 0 164px 0 108px;
             padding: 0;
         }
 
@@ -252,7 +249,7 @@
         }
 
         .section-four .container {
-            width: 100%;
+            width: 768px;
         }
 
         .section {
@@ -264,7 +261,7 @@
         }
 
         .section-three .container {
-            width: 100%;
+            width: 768px;
             padding: 0 108px;
         }
 
@@ -273,20 +270,33 @@
         }
 
         .section-two .container {
-            width: 100%;
+            width: 768px;
         }
 
         .ourteam-ul {
             width: 736px;
+            row-gap: 72px;
+        }
+
+        .ul-ourteam {
+            row-gap: 64px;
         }
 
         .lione {
             width: 356px;
         }
 
+        .strategy {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.11;
+            letter-spacing: 0.72px; 
+        }
+
         .sect-hone {
             margin: 0;
             width: 496px;
+            display: contents;
         }
 
         .button {
@@ -299,8 +309,7 @@
         }
 
         .header .container {
-            width: 100%;
-            height: 100%;
+            width: 768px;
         }
 
         .address-ul {
