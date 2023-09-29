@@ -910,6 +910,7 @@
     visibility: visible;
     pointer-events: auto;
     display: block;
+    min-height: 420px;
   }
 
   .menu-list {
@@ -944,7 +945,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px ;
-    margin-bottom: 48px;
+    margin-bottom: 12px;
   }
 
   .menu-item-first {
