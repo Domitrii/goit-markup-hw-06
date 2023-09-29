@@ -495,7 +495,7 @@
   .footer .container {
     display: flex;
     align-items: baseline;
-    padding: 0;
+    padding: 0 16px;
   }
 
   .firstdiv-foot {

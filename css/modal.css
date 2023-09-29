@@ -29,7 +29,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0 16px 72px;
+        margin: 0 0 72px;
         width: 288px;
     }
 
@@ -198,7 +198,7 @@
         }
 
         .header {
-            width: 768px;
+            width: 769px;
             height: 72px;
         }
 
@@ -224,6 +224,7 @@
             display: flex;
             flex-wrap: wrap;
             margin: 0 164px 0 108px;
+            padding: 0;
         }
 
         .sub-label {
@@ -342,4 +343,9 @@
         opacity: 0;
         width: 0;
     }    
+
+    .icon-group {
+        width: 0;
+        height: 0;
+    }
 } 
